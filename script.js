@@ -5,7 +5,7 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
   if(html.classList.contains('light')){
     img.setAttribute('src', './assets/avatar-light.png');
-    // img.setAttribute("alt", "Foto de perfil.")
+    img.setAttribute("alt", "Foto de perfil.")
   } else {
     img.setAttribute("src", "./assets/avatar.png");
     img.setAttribute("alt", "Foto de perfil com oculos.")
